@@ -98,8 +98,6 @@
 
   .profile__column {
     margin: 0 0 20px;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     width: 100%;
   }
@@ -108,17 +106,15 @@
     margin: 0 0 6px;
     max-width: 288px;
     font-size: 20px;
-    line-height: 1;
   }
 
   .profile__description {
     margin: 0 0 32px;
     max-width: 288px;
     font-size: 16px;
-    line-height: 1;
   }
 
-  .profile.profile__edit-button {
+  .profile__edit-button {
     margin: 0;
     width: auto;
     align-self: center;

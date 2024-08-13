@@ -23,4 +23,4 @@ Spots App is a responsive website built using HTML and CSS. The website is desig
 
 ## Video About Project
 
-- Link to Video
+- [Link to Video](https://vimeo.com/997879675?share=copy)
