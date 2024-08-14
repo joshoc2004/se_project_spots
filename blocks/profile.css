@@ -73,10 +73,6 @@
   margin-right: 8px;
 }
 
-.profile__edit-button__icon:hover {
-  color: rgba(33, 33, 33, 0.8);
-}
-
 .profile__add-button {
   margin-left: auto;
   margin-top: auto;
