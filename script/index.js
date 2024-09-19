@@ -29,9 +29,15 @@ console.log(initialCards);
 
 const profileEditButton = document.querySelector(".profile__edit-button");
 const editProfileModal = document.querySelector("#edit-profile-modal");
-const editCloseButton = document.querySelector(".modal__close-button");
+const editCloseButton = editProfileModal.querySelector(".modal__close-button");
+
+const profileName = document.querySelector(".profile__name");
+const editModalNameInput = editProfileModal.querySelector(
+  "#profile-name-input"
+);
 
 function openModal() {
+  editModalNameInput.value = profileName.textContent;
   editProfileModal.classList.add("modal_opened");
 }
 
